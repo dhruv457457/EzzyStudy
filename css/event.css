@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+body{background-color: whitesmoke}
+/* navbar  */
+.logo img{
+  width: 40px;
+  height: 23px;
+  background-color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #007bffe1;
+  height: 50px;
+  position: relative;
+
+
+}
+
+.right ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.right ul li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* navbar ends */
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+main {
+  width: 100%;
+  overflow: hidden;
+}
+/* Style for the event boxes */
+.events{
+  display: flex;
+   flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-top: 20px;}
+
+  .event-box {  display: flex;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;}
+
+    .event-box:hover {
+      transform: scale(1.05);}
+
+
+      /* Style for the left side containing the date */
+.event-date {
+  flex: 0 0 100px;
+  padding: 0px;}
+
+  .event-date img {
+    width: 100%;
+    height: 100%px;
+    object-fit: contain;}
+
+    /* Style for the middle section containing title and description */
+.event-details {
+  flex: 1;
+  padding: 10px;}
+
+  
+/* Style for the title */
+.event-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;}
+
+
+  /* Style for the description */
+.event-description {
+  margin-bottom: 10px;}
+
+
+  /* Style for the right side containing the registration button */
+.event-registration {
+  flex: 0 0 150px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;}
+
+  /* Style for the registration button */
+.register-btn {
+  background-color: #ffffff;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 8px 16px;
+  border-radius: 5px;}
+
+  
+.register-btn:hover {
+  background-color: #007bff;
+  color: #ffffff;}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 14px;
+}
+
+
+
